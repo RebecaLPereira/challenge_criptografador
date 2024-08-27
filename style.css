@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-primaria: #F5EDED;
+    --cor-secundaria: #E2DAD6;
+    --cor-terciaria: #7FA1C3;
+    --cor-quarta: #6482AD;
+    
+}
+
+body{
+    background-color: var(--cor-secundaria);
+    padding: 50px 0 0 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 0px 30px 0px;
+}
+.sessao{
+    width: 60%;
+    background-color: var(--cor-secundaria);
+}
+
+#mensagem{
+    background-color: transparent;
+    overflow: hidden;
+    height: 75vh;
+    font-size: 24px;
+    width: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+}
+#botoesCripto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#botaoCriptografar{
+    background-color: var(--cor-quarta);
+    color: white;
+    width: 45%;
+}
+
+#botaoDescriptografar{
+    border: 2px solid var(--cor-quarta);
+    color: var(--cor-quarta);
+    background-color: transparent;
+    width: 45%;
+}
+#apresentacao{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    border-radius: 30px;
+    box-shadow: 20px 15px 40px -25px var(--cor-secundaria);
+}
+
+#resultado{
+    padding: 20px;
+    height: 80%;
+}
+
+#divBotaoCopiar{
+    display: flex;
+    justify-content: center;
+}
+
+
+#botaoCopiar{
+    width: 80%;
+    justify-content: center;
+    display: none;
+}
+.botao{
+    padding: 20px;
+    border-radius: 25px;
+}
+
+
+#imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#imagem h2{
+    margin-top:20px
+}
+
+#imagem p{
+    text-align: center;
+    display: flex;
+    margin-top:10px
+}
+footer{
+    justify-content: center;
+    display: flex;
+    background-color: var(--cor-quarta);
+    padding: 16px;
+}
+
+.hide{
+    display: hidden!important;
+}
